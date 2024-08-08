@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  name: 'demo-pool'
+  name: 'demo_pool'
 
 steps:
 - script: echo Hello world!
