@@ -1,0 +1,9 @@
+trigger:
+- master
+
+pool:
+  name: 'demo-pool'
+
+steps:
+- script: echo Hello world!
+  displayName: 'Tun a one line script'
